@@ -10,7 +10,9 @@ Ce mini-projet a pour but de mettre en place **une base solide pour le gameplay 
 
 ---
 
-## **📂 1. Structure du Projet Unity**  
+## **📂 1. Structure du Projet Unity**
+
+📖 Unity - Best Practices pour l’organisation des fichiers : [Unity - Best Practices](https://learn.unity.com/tutorial/project-organization-2019-3?language=en)
 
 📌 **Le projet doit suivre une organisation claire**, facilitant la lecture et la maintenance. Voici l’arborescence des fichiers attendue :  
 
@@ -43,6 +45,13 @@ Ce mini-projet a pour but de mettre en place **une base solide pour le gameplay 
 │   │   ├── Player_Jump.png
 │   │   ├── Player_Dash.png
 │   │── 📁 UI
+│   │── 📁 Audio
+│   │   ├── 📁 SFX
+│   │   │   ├── Jump.wav
+│   │   │   ├── Dash.wav
+│   │   │   ├── Land.wav
+│   │   ├── 📁 Music
+│   │   │   ├── BackgroundTrack.mp3
 │── 📁 Packages
 │── 📁 ProjectSettings
 │── 📁 Logs (optionnel)
@@ -55,7 +64,9 @@ Ce mini-projet a pour but de mettre en place **une base solide pour le gameplay 
 
 ## **🎮 2. Fonctionnalités Attenues**  
 
-### **🕹️ 2.1 Déplacements du Joueur**  
+### **🕹️ 2.1 Déplacements du Joueur**
+
+📖 Unity Docs - CharacterController et gestion des mouvements : [Unity Docs - CharacterController](https://docs.unity3d.com/Manual/class-CharacterController.html)
 
 ✅ **Déplacement gauche/droite**  
 - Le joueur doit pouvoir **se déplacer à gauche et à droite** de manière fluide.  
@@ -76,7 +87,9 @@ Ce mini-projet a pour but de mettre en place **une base solide pour le gameplay 
 
 ---
 
-### **📷 2.2 Caméra Dynamique**  
+### **📷 2.2 Caméra Dynamique**
+
+📖 [Unity Docs - Gestion de la caméra](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.html)
 
 ✅ **Suivi du joueur**  
 - La caméra doit **suivre le joueur** tout en appliquant un effet de **lissage** (*lerping*).  
@@ -89,7 +102,9 @@ Ce mini-projet a pour but de mettre en place **une base solide pour le gameplay 
 
 ---
 
-### **🌍 2.3 Environnement et Collisions**  
+### **🌍 2.3 Environnement et Collisions**
+
+📖 Unity Docs - Colliders et gestion des collisions : [Unity Docs - Colliders](https://docs.unity3d.com/Manual/CollidersOverview.html)
 
 ✅ **Plateformes statiques**  
 - Les plateformes doivent être des **objets solides** détectables par le joueur.  
@@ -104,6 +119,8 @@ Ce mini-projet a pour but de mettre en place **une base solide pour le gameplay 
 ---
 
 ### **🎨 2.4 Animations et Effets Visuels**  
+
+📖 Unity Docs - Animation et effets visuels : [Unity Docs - Animation](https://docs.unity3d.com/Manual/AnimationSection.html)
 
 ✅ **Animations du personnage**  
 - Une animation doit être **associée à chaque action** :  
